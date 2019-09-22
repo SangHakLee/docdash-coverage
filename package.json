@@ -1,7 +1,7 @@
 {
-  "name": "docdash",
-  "version": "1.1.1",
-  "description": "A clean, responsive documentation template theme for JSDoc 3 inspired by lodash and minami",
+  "name": "docdash-coverage",
+  "version": "0.1.1",
+  "description": "docdash with nyc's coverage.",
   "main": "publish.js",
   "scripts": {
     "test": "jsdoc -c fixtures/fixtures.conf.json",
@@ -10,18 +10,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/clenemt/docdash.git"
+    "url": "https://github.com/sanghaklee/docdash-coverage.git"
   },
   "devDependencies": {
     "jsdoc": "latest",
     "browser-sync": "latest",
     "watch-run": "latest"
   },
-  "author": "Clement Moron <clement.moron@gmail.com>",
+  "author": "sanghaklee, <leesanghak7298@gmail.com>",
   "license": "Apache-2.0",
   "keywords": [
     "jsdoc",
-    "template"
+    "template",
+    "docdash",
+    "coverage",
+    "nyc"
   ],
   "files": [
     "publish.js",
