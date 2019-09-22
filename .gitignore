@@ -13,3 +13,7 @@ logs
 *.log
 jspm_packages
 .npm
+
+test/.nyc_output
+test/docdash
+test/coverage
